@@ -1,0 +1,24 @@
+{
+   "name": "christmas",
+   "version": "1.0.0",
+   "description": "Draw tool for family Christmas gifts",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "toss": "node --require ts-node/register src/scripts/toss.ts"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/julienDhilly/draw-christmas-tools.git"
+   },
+   "author": "Julien Dhilly",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/julienDhilly/draw-christmas-tools/issues"
+   },
+   "homepage": "https://github.com/julienDhilly/draw-christmas-tools#readme",
+   "devDependencies": {
+      "ts-node": "^8.5.0",
+      "typescript": "^3.7.2"
+   }
+}

@@ -1,0 +1,32 @@
+{
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
+      "autoFix": true
+    }
+  ],
+
+  // Fixed by eslint/prettier for those languages
+  "editor.formatOnSave": true,
+  "[vue]": {
+    "editor.formatOnSave": false
+  },
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
+
+  // eslint/prettier integration
+  "vetur.validation.template": false
+}
